@@ -14,8 +14,8 @@ def show_code():
     #     bfs_python = f.read()
     # with open("dfs.py", "r") as f:
     #     dfs_python = f.read()
-    # with open("bfs.java", "r") as f:
-    #     bfs_java = f.read()
+    with open("bfsGraph.java", "r") as f:
+        bfs_java = f.read()
     # with open("dfs.java", "r") as f:
     #     dfs_java = f.read()
 
@@ -83,7 +83,7 @@ def show_code():
         graph_representation_java=graph_representation_java,
         # bfs_python=bfs_python,
         # dfs_python=dfs_python,
-        # bfs_java=bfs_java,
+        bfs_java=bfs_java,
         # dfs_java=dfs_java,
     )
 
